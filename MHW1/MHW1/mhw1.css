@@ -37,7 +37,7 @@ header nav {
   }
   
   @media (max-width: 500px) {
-    #navbar {
+    #links {
       display: none;
     }
   
@@ -59,7 +59,7 @@ header nav #logo {
     }    
 }
 
-header nav #logo img, header nav #navbar{
+header nav #logo img, header nav #links{
     width: 100%;
 }
 
@@ -139,12 +139,14 @@ header nav a:hover {
 }
 
 footer {
+    position: relative;
     border-style: solid;
     border-width: 5px;
     border-color: black;
     border-radius: 20px;
     background-color: rgba(23, 82, 23, 0.87);
     text-align: left;
+    z-index: 2;
 }
 
 footer a {
