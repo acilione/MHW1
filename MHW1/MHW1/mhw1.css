@@ -62,14 +62,25 @@ header nav #links {
   width: 100%;
 }
 
+header nav a,
+header h1 {
+  color: lavender;
+}
+
 header nav a {
   padding: 10px;
   text-transform: uppercase;
-  color: lavender;
 }
 
 header nav a:hover {
   color: yellow;
+}
+
+header h1 {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #content {
@@ -154,8 +165,10 @@ footer a {
   color: lavender;
   text-decoration: none;
   line-height: 25px;
+  font-family: "Nunito", sans-serif;
   font-weight: normal;
 }
+
 footer a:hover {
   color: blue;
 }
